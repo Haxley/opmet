@@ -1,0 +1,259 @@
+#header {
+	z-index: 1;
+	position: relative;
+	display:none;
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	height:10%;
+	background-color: rgba(27,9,190,0.5);
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
+	text-align: center;
+	color: white;
+	border-radius:5px;
+	
+	   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#270097', endColorstr='#876add'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#270097), to(#876add)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #270097,  #876add); /* for firefox 3.6+ */
+}
+
+
+#header2 {
+	font-size: 300%;
+	z-index: 1;
+	position: relative;
+	display:block;
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	height:10%;
+	background-color: rgba(27,9,190,0.5);
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
+	text-align: center;
+	color: white;
+	border-radius:5px;
+	
+	   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#270097', endColorstr='#772780'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#270097), to(#772780)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #270097,  #772780); /* for firefox 3.6+ */
+	
+	
+}
+
+a {
+
+	color: #ffffff;
+	
+}
+
+body{
+    width: 100%;
+    height:100%;
+    background-repeat:no-repeat !important;
+    margin:0; padding:0;
+    background: #603813; /* for non-css3 browsers */
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3e1434', endColorstr='#ffffff'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#270097), to(#876add)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #3e1434,  #ffffff); /* for firefox 3.6+ */
+	margin:0px 0px 100% 0px;
+}
+
+#left {
+	z-index: 2;
+	position: relative;
+	float: left;
+	display:none;
+	width: 49.5%;
+	height: 400px;
+	background-color: rgba(41,131,153,0.5);
+	margin-bottom: 10px;
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
+	color: white;
+	text-align: center;
+	border-radius:5px;
+	margin:;
+	
+	
+}
+
+#right {
+	z-index: 3;
+	position: relative;
+	float: right;
+	display:none;
+	width: 49.5%;
+	height: 400px;
+	background-color: rgba(41,131,153,0.5);
+	margin-bottom: 10px;
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
+	color: white;
+	text-align: center;
+	border-radius:5px;
+	margin:;
+}
+
+.leftMenus {
+	margin:20%;
+}
+
+.rightMenus {
+	margin:20%;
+}
+
+
+
+
+#footerAbout {
+	position: relative;
+	display:none;
+	clear:both;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 1px;
+	height:10%;
+	background-color: rgba(41,131,153,0.40);
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
+	text-align: center;
+	color: white;
+	border-radius:5px;
+	font-size: xx-large;
+	border-color:52,15,149;
+}
+
+#footerOpmet {
+	position: relative;
+	display:block;
+	clear:both;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 1px;
+	height:10%;
+	background-color: rgba(41,131,153,0.40);
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
+	text-align: center;
+	color: white;
+	border-radius:5px;
+	font-size: xx-large;
+}
+
+#panel{
+	padding:50px;
+	display:none;
+	background-color: rgba(41,131,153,0.40);
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
+	text-align: justify;
+	color: white;
+	border-radius:5px;
+	margin: 0 auto;
+	width: 30em;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#270097', endColorstr='#876add'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#772780), to(#876add)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #270097,  #876add); /* for firefox 3.6+ */
+
+
+}
+
+.panel {
+	clear:both;
+}
+
+body{
+    width: 100%;
+    height:100%;
+    background-repeat:no-repeat !important;
+    margin:0; padding:0;
+    background: #603813; /* for non-css3 browsers */
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3e1434', endColorstr='#ffffff'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#270097), to(#876add)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #3e1434,  #ffffff); /* for firefox 3.6+ */
+	margin:0px 0px 100% 0px;
+}
+
+zHead{
+ 	font-size:250%;
+
+	
+}
+
+zL {
+ 	font-size:150%;
+ 	margin:10%;
+	display:none;
+}
+
+zzL {
+	font-size:300%;
+	margin:10%;
+	display:none;
+}
+
+zzzL {
+	font-size:450%;
+	margin:10%;
+	display:none;
+}
+
+
+/* Left Time Styles */
+
+
+zLT {
+ 	font-size:100%;
+ 	margin:5%;
+	display:none;
+	text-align:left;
+}
+
+zzLT {
+	font-size:150%;
+	margin:5%;
+	display:none;
+	text-align:center;
+}
+
+zzzLT {
+	font-size:200%;
+	margin:5%;
+	display:none;
+	text-align:right;
+}
+
+
+/* Right Time Styles */
+
+
+
+zRT 	{
+	font-size:100%;
+	margin:5%;
+	display:none;
+	
+}
+
+zzRT {
+	font-size:150%;
+	margin:5%;
+	display:none;
+}
+
+zzzRT {
+	font-size:200%;
+	margin:5%;
+	display:none;
+}
+
+
+tr {
+	display:none;
+	
+}
+
+
+
+
+/* Now Starting Smooth Drop Menu */
+
+
+
